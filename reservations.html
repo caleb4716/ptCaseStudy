@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+	<head>
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script>
+		<![endif]-->
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="pacific.css">
+		<title>Pacific Trails::Reservations</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<h1>Pacific Trails Resort</h1>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="yurts.html">Yurts</a></li>
+					<li><a href="activities.html">Activities</a></li>
+					<li><a href="reservations.html">Reservations</a></li>
+				</ul>
+			</nav>
+			<main>
+				<form action="http://webdevbasics.net/scripts/pacific.php">
+					<label>First Name:</label>
+					<input type="text" name="myFName">
+					<label>Last Name:</label>
+					<input type="text" name="myLName">
+					<label>Email:</label>
+					<input type="email" name="myEmail">
+					<label>Phone:</label>
+					<input type="text" name="myPhone">
+					<label>Arrival Date:</label>
+					<input type="text" name="myArrival">
+					<label>Nights:</label>
+					<input type="number" name="myNights">
+					<label>Comments:</label>
+					<input type="text" name="myComments">
+					<label></label>
+					<input type="submit" name="submit">
+				</form>
+			</main>
+			<footer>
+				<p>
+				Copyright &copy; 2014 Pacific Trails Resort<br>
+				<a href="">Caleb@Russell.com</a> <!-- Link to fake website-->
+				</p>
+			</footer>
+		</div>
+	</body>
