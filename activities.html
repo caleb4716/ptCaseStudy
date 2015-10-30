@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 	<head>
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script>
+		<![endif]-->
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="pacific.css">
 		<title>Pacific Trails Resort :: Activities</title>
@@ -10,20 +13,33 @@
 				<h1>Pacific Trails Resort</h1>
 			</header>
 			<nav>
-				<a href="index.html">Home</a>
-				<a href="yurts.html">Yurts</a>
-				<a href="activities.html">Activities</a>
-				<a href="">Reservations</a>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="yurts.html">Yurts</a></li>
+					<li><a href="activities.html">Activities</a></li>
+					<li><a href="">Reservations</a></li>
+				</ul>
 			</nav>
+			<div id="trailhero">
+			</div>
 			<main>
 				<h2>The Activities at Pacific Trails</h2>
-				<img src="images/trail.jpg" alt="One of the many serene trails at Pacific Trails Resort" width="320" height="250"/>
+				<!--<img src="images/trail.jpg" alt="One of the many serene trails at Pacific Trails Resort" width="320" height="250"/>-->
 				<h3>Hiking</h3>
 				<p>Pacific Trails Resort has 5 miles of hiking trails and is adjacent to a state park. Go it alone or join one of our guided hikes.</p>
 				<h3>Kayaking</h3>
 				<p>Ocean kayaks are available for guest use.</p>
 				<h3>Bird Watching</h3>
 				<p>While anytime is a good time for bird watching at Pacific Trails, we offer guided birdwatching trips at sunrise several times a week.</p>
+				<div id="gallery">
+					<ul>
+						<li><img src="images/photo2thumb.jpg" alt=""></li>
+						<li><img src="images/photo3thumb.jpg" alt=""></li>
+						<li><img src="images/photo4thumb.jpg" alt=""></li>
+						<li><img src="images/photo6thumb.jpg" alt=""></li>
+					</ul>
+					<img id="placeholder" src="images/photo5.jpg" alt="placeholder">
+				</div>
 			</main>
 			<footer>
 				<p>
